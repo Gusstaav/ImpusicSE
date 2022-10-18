@@ -12,7 +12,7 @@ export default function Feed ({route, navigation}){
         SE TIVER RODANDO NO PRÓPRIO PC: 10.0.2.2
         SE TIVER RODANDO NO EXPO GO: 192.168.1.14 (ipv4 do seu computador)
     */
-   const ipBd = '192.168.1.14';
+   const ipBd = '192.168.1.14'; 
 
     useEffect(() => {
         fetch('http://'+ipBd+'/rnmysql/videos.php')
